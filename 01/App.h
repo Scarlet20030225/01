@@ -9,7 +9,7 @@
 class Main
 {
 public:
-	LRESULT MsgProc(HWND, UINT, WPARAM, LPARAM);
+	LRESULT MsgProc(HWND, UINT, WPARAM, LPARAM); 
 
 	HWND m_hWnd;
 
