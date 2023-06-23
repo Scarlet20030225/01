@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{424f3248-7822-4456-84fb-539c118dcff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e6132169-d9b6-4c9e-867a-be810ccf5103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{79279aab-5a4a-430c-9f55-e746d2b4b582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\System">
+      <UniqueIdentifier>{097e1b83-6a00-4edf-8e1b-b6d8753ffc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem">
+      <UniqueIdentifier>{60f0a110-6a01-45cc-867a-a57f6805a5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem\App">
+      <UniqueIdentifier>{676edb72-83ec-404e-b984-5e30c2212b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem\Window">
+      <UniqueIdentifier>{ab00bd4f-eb46-4cbc-bd19-4b5642f3ce2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem\Main">
+      <UniqueIdentifier>{2baa6646-c45d-4f80-9142-7ad936392d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\System">
+      <UniqueIdentifier>{150d3848-d47f-4dae-b0f1-37060a330395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem\ProcessingManager">
+      <UniqueIdentifier>{f0b15e95-7489-4ba5-8021-c1d72951ee80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySystem\DeltaTime">
+      <UniqueIdentifier>{3bccfaff-4258-4f47-83d5-f321dbf3c808}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>MySystem\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>MySystem\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>MySystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>GameObject\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTag.cpp">
+      <Filter>GameObject\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingManager.cpp">
+      <Filter>MySystem\ProcessingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>MySystem\DeltaTime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>MySystem\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>MySystem\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>GameObject\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTag.h">
+      <Filter>GameObject\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessingManager.h">
+      <Filter>MySystem\ProcessingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>MySystem\DeltaTime</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
