@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Win32Application.cpp" />
     <ClCompile Include="DeltaTime.cpp" />
     <ClCompile Include="GameObjectManager.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -27,17 +27,15 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="ProcessingManager.cpp" />
     <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
+    <ClInclude Include="Win32Application.h" />
     <ClInclude Include="DeltaTime.h" />
     <ClInclude Include="GameObjectManager.h" />
     <ClInclude Include="ObjectTag.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ProcessingManager.h" />
     <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="Window.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
