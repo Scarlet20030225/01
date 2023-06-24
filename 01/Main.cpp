@@ -1,7 +1,9 @@
-#include"App.h"
+#include"Win32Application.h"
 
 //アプリケーションのエントリー関数
-INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT)
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nShowCmd)
 {
 
+
+	return 0;
 }
