@@ -34,6 +34,9 @@
     <Filter Include="Source\MySystem\DeltaTime">
       <UniqueIdentifier>{3bccfaff-4258-4f47-83d5-f321dbf3c808}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MySystem\Dx12System">
+      <UniqueIdentifier>{238c49a9-67df-4e28-bd9f-63a2574a3a90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Win32Application.cpp">
@@ -60,6 +63,9 @@
     <ClCompile Include="DeltaTime.cpp">
       <Filter>Source\MySystem\DeltaTime</Filter>
     </ClCompile>
+    <ClCompile Include="Dx12System.cpp">
+      <Filter>Source\MySystem\Dx12System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Win32Application.h">
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="DeltaTime.h">
       <Filter>Source\MySystem\DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx12System.h">
+      <Filter>Source\MySystem\Dx12System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

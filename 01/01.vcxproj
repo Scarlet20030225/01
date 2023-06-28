@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dx12System.cpp" />
     <ClCompile Include="Win32Application.cpp" />
     <ClCompile Include="DeltaTime.cpp" />
     <ClCompile Include="GameObjectManager.cpp" />
@@ -29,6 +30,7 @@
     <ClCompile Include="SceneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dx12System.h" />
     <ClInclude Include="Win32Application.h" />
     <ClInclude Include="DeltaTime.h" />
     <ClInclude Include="GameObjectManager.h" />
@@ -127,7 +129,9 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

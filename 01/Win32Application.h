@@ -7,8 +7,7 @@ public:
 	Win32Application() {}
 	~Win32Application() {}
 
-
+	static void Run(HINSTANCE hInstance);
 
 private:
-	static LRESULT CALLBACK WindowProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 };
